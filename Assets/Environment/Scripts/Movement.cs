@@ -15,13 +15,13 @@ public class Movement : MonoBehaviour
 	private void Awake()
 	{
 		actions = new PlayerInput();
-		actions.Player.Fire.performed += x => Check();
+		//actions.Player.Fire.performed += x => Check();
 	}
 
-	private void Check()
-	{
-		rb2D.velocity = new Vector2(0f, 0f);
-	}
+	//private void Check()
+	//{
+	//	rb2D.velocity = new Vector2(0f, 0f);
+	//}
 
 	private void OnEnable()
 	{
